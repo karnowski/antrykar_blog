@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^forgottenprophecies.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.forgottenprophecies.com$
+RewriteRule ^(.*)$ http://www.anthonyrkarnowski.com/$1 [R=301,L]
+
